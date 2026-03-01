@@ -1,0 +1,52 @@
+.login-container {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(to right, #e0f7fa, #ffffff);
+  padding: 2rem; 
+}
+
+.login-box {
+  background-color: #ffffff;
+  padding: 2.5rem 3rem;
+  border-radius: 16px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.08);
+  max-width: 800px;
+  width: 100%;
+  text-align: left;
+}
+
+.logo {
+  width: 80px;
+  margin-bottom: 1rem;
+}
+
+input[type="password"] {
+  width: 100%;
+  padding: 0.5rem;
+  margin: 1rem 0;
+  border-radius: 8px;
+  border: 1px solid #000000;
+  font-size: 1rem;
+}
+
+button {
+  padding: 0.6rem 1.2rem;
+  border: none;
+  background:linear-gradient(to right, #86e4f1, #645a5a);
+  color: white;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+button:hover {
+  background:linear-gradient(to right, #e0f7fa, #ffffff);
+  
+}
+
+.error {
+  color: red;
+  font-size: 0.9rem;
+}

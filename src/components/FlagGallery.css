@@ -1,0 +1,46 @@
+.vertical-container {
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vh;
+  background:linear-gradient(to right, #86e4f1, #645a5a);
+}
+.vertical-box {
+   background:linear-gradient(to right, #86e4f1, #645a5a);
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+  text-align:center;
+  width:200;
+}
+.flags-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 16px;
+  padding: 20px;
+  background-color:linear-gradient(to right, #86e4f1, #645a5a);
+}
+
+.flag-card {
+  width: 120px;
+  text-align: center;
+  cursor: pointer;
+  border-radius: 12px;
+  padding: 10px;
+  background:linear-gradient(to right, #e0f7fa, #ffffff);
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease, background-color 0.2s ease;
+}
+
+.flag-card:hover {
+  transform: scale(1.05);
+  background-color: #e6f7ff;
+}
+
+.flag-image {
+  width: 80px;
+  height: auto;
+  margin-bottom: 8px;
+}

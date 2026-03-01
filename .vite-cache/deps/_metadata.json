@@ -1,0 +1,49 @@
+{
+  "hash": "fffef22c",
+  "configHash": "6a45d51e",
+  "lockfileHash": "7bd252f7",
+  "browserHash": "f6d49e6c",
+  "optimized": {
+    "axios": {
+      "src": "../../node_modules/axios/index.js",
+      "file": "axios.js",
+      "fileHash": "12f3c7a5",
+      "needsInterop": false
+    },
+    "framer-motion": {
+      "src": "../../node_modules/framer-motion/dist/es/index.mjs",
+      "file": "framer-motion.js",
+      "fileHash": "2ecca16b",
+      "needsInterop": false
+    },
+    "react": {
+      "src": "../../node_modules/react/index.js",
+      "file": "react.js",
+      "fileHash": "ec922f35",
+      "needsInterop": true
+    },
+    "react-dom/client": {
+      "src": "../../node_modules/react-dom/client.js",
+      "file": "react-dom_client.js",
+      "fileHash": "46ec9081",
+      "needsInterop": true
+    },
+    "react-router-dom": {
+      "src": "../../node_modules/react-router-dom/dist/index.mjs",
+      "file": "react-router-dom.js",
+      "fileHash": "21646b52",
+      "needsInterop": false
+    }
+  },
+  "chunks": {
+    "chunk-ADBY2UQ7": {
+      "file": "chunk-ADBY2UQ7.js"
+    },
+    "chunk-RTNHS3CA": {
+      "file": "chunk-RTNHS3CA.js"
+    },
+    "chunk-G3PMV62Z": {
+      "file": "chunk-G3PMV62Z.js"
+    }
+  }
+}

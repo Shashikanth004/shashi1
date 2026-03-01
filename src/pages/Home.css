@@ -1,0 +1,44 @@
+/* Home.css */
+
+.home-container {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(to right, #e0f7fa, #ffffff);
+  padding: 2rem;
+  
+}
+
+.home-box {
+  background-color: #ffffff;
+  padding: 2.5rem 3rem;
+  border-radius: 16px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.08);
+  max-width: 800px;
+  width: 100%;
+  text-align: left;
+}
+
+.home-box h2 {
+  font-size: 2.2rem;
+  margin-bottom: 1.2rem;
+  color: #0f172a;
+}
+
+.home-box p {
+  font-size: 1rem;
+  line-height: 1.7;
+  margin-bottom: 1rem;
+  color: #334155;
+}
+
+.home-box ul {
+  margin-top: 0.5rem;
+  padding-left: 1.5rem;
+}
+
+.home-box li {
+  margin-bottom: 0.6rem;
+  color: #475569;
+}

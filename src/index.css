@@ -1,0 +1,120 @@
+/* Reset & Base */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  background-color: linear-gradient(to right, #e0f7fa, #ffffff);
+  color: #1E293B; /* Slate-800 */
+  min-height: 100vh;
+}
+
+/* Navbar Styling */
+.navbar {
+  background:linear-gradient(to right, #86e4f1, #ffffff);/* Indigo → Blue */
+  padding: 1rem 2rem;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  position: sticky;
+  top: 0;
+  z-index: 999;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+  margin-left: 1rem;
+  font-weight: 500;
+  transition: opacity 0.3s ease;
+}
+
+.navbar a:hover {
+  opacity: 0.8;
+}
+
+/* Main Container */
+.container {
+  padding: 2rem;
+  max-width: 1200px;
+  margin: auto;
+}
+
+/* Example Card */
+.card {
+  background: white;
+  border-radius: 12px;
+  padding: 1.5rem;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.05);
+  margin-bottom: 2rem;
+}
+
+/* Button Styling */
+button {
+  background-color:linear-gradient(to right, #e0f7fa, #ffffff);
+  color: white;
+  border: none;
+  padding: 0.6rem 1.2rem;
+  border-radius: 8px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color:linear-gradient(to right, #99eaf5, #ffffff);
+}
+
+/* Flag Grid Example */
+.flag-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: center;
+  margin-top: 3rem;
+}
+
+.flag-item {
+  width: 100px;
+  text-align: center;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
+
+body.dark {
+  background: #1a1a1a;
+  color: #f0f0f0;
+}
+
+select, input, button {
+  margin: 5px;
+  padding: 8px;
+}
+h1{
+  font-style: italic;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+}
+h2{
+  font-style:italic;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+}
+p{
+  font-style: italic;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+}
+h3{
+  font-style: italic;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
